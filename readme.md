@@ -5,7 +5,7 @@ Analyze long strings of text to compute basic statistics.
 ## Learning Outcomes
 
 1. Use `for` loops to iterate over characters
-2. Implement counting logic using basic variables
+2. Implement counting logic using variables
 3. Apply conditional logic within loops
 
 ## Usage
@@ -18,11 +18,7 @@ python3 textstats.py
 
 ## Testing
 
-The program uses `doctest` for verification. Run tests using:
-
-```
-make test
-```
+The program uses `doctest` for verification. Tests will run automatically when your program is run.
 
 ## Tasks
 
