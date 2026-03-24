@@ -6,7 +6,7 @@ def grade_files():
     current_script = os.path.basename(__file__)
     files = [f for f in os.listdir('.') if f.endswith('.py') and f != current_script]
     
-    for filename in files:
+    for filename in sorted(files):
         module_name = filename[:-3]
         spec = importlib.util.spec_from_file_location(module_name, filename)
         module = importlib.util.module_from_spec(spec)
